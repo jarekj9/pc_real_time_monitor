@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import re
 
-
+ 
 class PLOT:
     def __init__(self):
         self.cpu = collections.deque(np.zeros(20))
